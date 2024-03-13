@@ -2,6 +2,37 @@
 @import url("dingbat_xeicon.css");
 @import url("nanumsquare/nanumsquare.css");
 @import url("notosanskr/NotoSansKR.css");
+
+/* Chrome, Safari용 스크롤 바 */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 8px;
+  border: 1px solid #fff;
+}
+
+::-webkit-scrollbar-button:start:decrement,
+::-webkit-scrollbar-button:end:increment {
+  display: block;
+  height: 10px;
+  background-color: #fafafa;
+}
+
+::-webkit-scrollbar-track {
+  background: #efefef;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.2);
+}
+
+::-webkit-scrollbar-thumb {
+  height: 50px;
+  width: 50px;
+  background: rgba(0, 0, 0, 0.2);
+  -webkit-border-radius: 8px;
+  border-radius: 8px;
+  -webkit-box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.1);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -275,6 +306,7 @@ body {
   left: 50%;
   transform: translateX(-50%);
   width: 230px;
+  background-color: #fff;
 
   /* 스크롤생성 */
   max-height: 450px;
@@ -295,6 +327,15 @@ body {
   top: 50px;
   transition: all 0.3s;
 }
+
+/* js 메인메뉴 addClass 부분 */
+.submenu_focus {
+  visibility: visible;
+  opacity: 1;
+  top: 65px;
+  z-index: 999;
+}
+
 .submenu > li {
   position: relative;
   display: block;
@@ -316,6 +357,15 @@ body {
   float: right;
   margin-top: 11px;
 }
+
+.submenu_focus_link {
+  background-color: #ec008c;
+}
+
+.submenu_focus_link > a {
+  color: #fff;
+}
+
 /* 3 depth 메뉴 */
 .submenu-3rd {
   position: relative;
@@ -328,7 +378,6 @@ body {
   font-size: 1.4rem;
   line-height: 40px;
   padding: 0 10px;
-
   transition: background 0.3s;
 }
 .submenu-3rd > li:hover > a {
