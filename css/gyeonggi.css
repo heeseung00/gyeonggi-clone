@@ -93,6 +93,31 @@ body {
   background-color: #2a3a67;
   z-index: 999;
 }
+
+/* 스크롤 됐을때  */
+.h-fix {
+  position: fixed;
+  left: 0;
+  top: -141px;
+  width: 100%;
+}
+.h-fix-mt {
+  margin-top: 207px;
+}
+.h-show {
+  display: block !important;
+  width: 20%;
+  text-align: center;
+}
+.h-show img {
+  width: 70%;
+}
+.h-fix-gnb {
+  width: 80% !important;
+}
+/* 스크롤 됐을때 끝 */
+
+/* -- */
 .h-link-list {
   position: relative;
   display: block;

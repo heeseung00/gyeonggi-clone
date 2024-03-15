@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+.content {
+  position: relative;
+  display: block;
+  margin-bottom: 50px;
+  background-color: aqua;
+}
+
+.content .pageW {
+  width: 1420px;
+  height: 670px;
+  background-color: antiquewhite;
+}
+
+.content-top {
+  position: relative;
+  display: block;
+  width: 1420px;
+  height: 510px;
+  margin: 0 auto;
+  margin-bottom: 85px;
+  background-color: blueviolet;
+}
+
+.content-notice {
+  position: relative;
+  display: block;
+  height: 100%;
+  background: url("../images/visual01.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.content-box{
+    
+}
