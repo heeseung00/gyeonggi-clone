@@ -1,0 +1,923 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- favicon -->
+    <link rel="shortcut icon" href="images/favicon.png" />
+    <title>경기콘텐츠진흥원</title>
+    <!-- jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <!-- prefixfree -->
+    <!-- <script src="js/prefixfree.min.js"></script> -->
+    <!-- swiper -->
+    <link rel="stylesheet" href="js/swiper/swiper.min.css" />
+    <script src="js/swiper/swiper.min.js"></script>
+    <!-- css -->
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/content.css" />
+    <link rel="stylesheet" href="css/hub.css">
+
+    <!-- js -->
+    <script src="js/script.js"></script>
+  </head>
+  <body>
+    <!-- 안내창 -->
+    <!-- 고정메뉴 -->
+    <!-- 전체영역 -->
+    <div class="wrap">
+      <!-- 상단영역 -->
+      <header class="header">
+        <!-- header-top -->
+        <div class="header-top">
+          <div class="pagew clearfix">
+            <!-- link-list -->
+            <ul class="h-link-list">
+              <li><a href="#" title="경기문화창조허브">경기문화창조허브</a></li>
+              <li><a href="#" title="경기글로벌게임센터">경기글로벌게임센터</a></li>
+              <li><a href="#" title="경기콘텐츠코리아랩">경기콘텐츠코리아랩</a></li>
+              <li><a href="#" title="해외진출지원홈페이지">해외진출지원홈페이지</a></li>
+              <li><a href="#" title="경기영상위원회">경기영상위원회</a></li>
+              <li><a href="#" title="경기게임문화센터">경기게임문화센터</a></li>
+            </ul>
+            <!-- help-list -->
+            <ul class="h-help-list">
+              <li>
+                <a href="#"><i class="xi-unlock-o"></i>로그인</a>
+              </li>
+              <li>
+                <a href="#"><i class="xi-user-o"></i>회원가입</a>
+              </li>
+              <li class="lang">
+                <a href="#">Language<i class="xi-caret-down-min"></i></a>
+                <ul class="country">
+                  <li><a href="#">english</a></li>
+                  <li><a href="#">chinese</a></li>
+                  <li><a href="#">japanese</a></li>
+                  <li><a href="#">vietnamese</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- header-middle -->
+        <div class="header-middle">
+          <div class="pagew clearfix">
+            <img src="images/gglogo.png" alt="gglogo" class="gglogo" />
+            <a href="#" class="logo">
+              <img src="images/logo_new.png" alt="경기콘텐츠진흥원" />
+            </a>
+            <a href="#" class="bro">
+              <i><img src="images/brs-btn.png" alt="브로슈어" /> 브로슈어</i>
+            </a>
+          </div>
+        </div>
+        <!-- header-bottom -->
+        <div class="header-bottom">
+          <div class="pagew clearfix">
+            <!-- 스크롤시 로고 -->
+            <a href="#" class="logo-gnb">
+              <img src="images/logo_new.png" alt="경기콘텐츠진흥원" />
+            </a>
+            <div class="gnb">
+              <!-- mainmenu 시작 -->
+              <ul class="mainmenu">
+                <li>
+                  <a href="#">주요사업</a>
+                  <ul class="submenu">
+                    <li>
+                      <a href="#">경기문화창조허브<i class="xi-caret-down-min"></i></a>
+                      <ul class="submenu-3rd">
+                        <li><a href="#">서부클러스터 부천센터 운영</a></li>
+                        <li><a href="#">광명 경기문화창조허브 운영</a></li>
+                        <li><a href="#">판교 경기문화창조허브 운영</a></li>
+                        <li><a href="#">북부 경기문화창조허브 운영</a></li>
+                        <li><a href="#">고양 경기문화창조허브 운영</a></li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a href="#">출판/만화/애니산업<i class="xi-caret-down-min"></i></a>
+                      <ul class="submenu-3rd">
+                        <li><a href="#">책 생태계 활성화 사업</a></li>
+                        <li><a href="#">만화애니영화 콘텐츠산업 활성화</a></li>
+                        <li><a href="#">경기국제웹툰페어</a></li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a href="#">음악산업<i class="xi-caret-down-min"></i></a>
+                      <ul class="submenu-3rd">
+                        <li><a href="#">경기도음악산업 육성</a></li>
+                        <li><a href="#">경기인디뮤직페스티벌</a></li>
+                        <li><a href="#">경기뮤직플랫폼</a></li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a href="#">방송영상산업<i class="xi-caret-down-min"></i></a>
+                      <ul class="submenu-3rd">
+                        <li><a href="#">경기도 영화영상산업 육성</a></li>
+                        <li><a href="#">경기도 영화영상산업 저변확대</a></li>
+                        <li><a href="#">경기도 다양성영화 육성</a></li>
+                        <li><a href="#">지역미디어센터 운영지원</a></li>
+                        <li><a href="#">경기스토리작가하우스 운영</a></li>
+                        <li><a href="#">지역특화 콘텐츠 개발지원</a></li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a href="#">게임산업<i class="xi-caret-down-min"></i></a>
+                      <ul class="submenu-3rd">
+                        <li><a href="#">플레이엑스포</a></li>
+                        <li><a href="#">게임산업육성</a></li>
+                        <li><a href="#">게임문화 활성화</a></li>
+                        <li><a href="#">경기 e스포츠 육성</a></li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a href="#">VRAR산업<i class="xi-caret-down-min"></i></a>
+                      <ul class="submenu-3rd">
+                        <li><a href="#">VRAR산업 육성</a></li>
+                        <li><a href="#">퓨처쇼 2021</a></li>
+                        <li><a href="#">경기VRAR제작거점센터 운영</a></li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a href="#">문화기술콘텐츠산업<i class="xi-caret-down-min"></i></a>
+                      <ul class="submenu-3rd">
+                        <li><a href="#">문화기술콘텐츠 저변확대</a></li>
+                        <li><a href="#">문화기술산업 육성</a></li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a href="#">창작자 지원<i class="xi-caret-down-min"></i></a>
+                      <ul class="submenu-3rd">
+                        <li><a href="#">경기콘텐츠창의학교</a></li>
+                        <li><a href="#">경기콘텐츠코리아랩</a></li>
+                        <li><a href="#">경기도 콘텐츠 공정거래 상담센터</a></li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a href="#">수출/자금지원<i class="xi-caret-down-min"></i></a>
+                      <ul class="submenu-3rd">
+                        <li><a href="#">콘텐츠해외진출 지원</a></li>
+                        <li><a href="#">콘텐츠 기업 투자지원</a></li>
+                        >
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="#">시설이용</a>
+                  <ul class="submenu">
+                    <li>
+                      <a href="#">프로그램<i class="xi-caret-down-min"></i></a>
+                      <ul class="submenu-3rd">
+                        <li><a href="#">부천메이커스페이스</a></li>
+                        <li><a href="#">판교 경기문화창조허브</a></li>
+                        <li><a href="#">광교 경기문화창조허브</a></li>
+                        <li><a href="#">북부 경기문화창조허브</a></li>
+                        <li><a href="#">서부 경기문화창조허브</a></li>
+                        <li><a href="#">고양 경기문화창조허브</a></li>
+                        <li><a href="#">광명 경기문화창조허브</a></li>
+                        <li><a href="#">경기 경기문화창조허브</a></li>
+                        <li><a href="#">경기 콘텐츠코리아 랩</a></li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a href="#">공간<i class="xi-caret-down-min"></i></a>
+                      <ul class="submenu-3rd">
+                        <li><a href="#">부천메이커스페이스</a></li>
+                        <li><a href="#">판교 경기문화창조허브</a></li>
+                        <li><a href="#">광교 경기문화창조허브</a></li>
+                        <li><a href="#">북부 경기문화창조허브</a></li>
+                        <li><a href="#">서부 경기문화창조허브</a></li>
+                        <li><a href="#">고양 경기문화창조허브</a></li>
+                        <li><a href="#">광명 경기문화창조허브</a></li>
+                        <li><a href="#">경기 경기문화창조허브</a></li>
+                        <li><a href="#">경기 콘텐츠코리아 랩</a></li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a href="#">장비<i class="xi-caret-down-min"></i></a>
+                      <ul class="submenu-3rd">
+                        <li><a href="#">부천메이커스페이스</a></li>
+                        <li><a href="#">판교 경기문화창조허브</a></li>
+                        <li><a href="#">광교 경기문화창조허브</a></li>
+                        <li><a href="#">북부 경기문화창조허브</a></li>
+                        <li><a href="#">서부 경기문화창조허브</a></li>
+                        <li><a href="#">고양 경기문화창조허브</a></li>
+                        <li><a href="#">광명 경기문화창조허브</a></li>
+                        <li><a href="#">경기 경기문화창조허브</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="#">기관뉴스</a>
+                  <ul class="submenu">
+                    <li>
+                      <a href="#">프레스센터<i class="xi-caret-down-min"></i></a>
+                      <ul class="submenu-3rd">
+                        <li><a href="#">오피니언</a></li>
+                        <li><a href="#">보도자료</a></li>
+                        <li><a href="#">자료실</a></li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a href="#">소통<i class="xi-caret-down-min"></i></a>
+                      <ul class="submenu-3rd">
+                        <li><a href="#">뉴스레터</a></li>
+                        <li><a href="#">유투브</a></li>
+                        <li><a href="#">FACEBOOK</a></li>
+                        <li><a href="#">INSTAGRAM</a></li>
+                        <li><a href="#">네이버포스트</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="#">알림마당</a>
+                  <ul class="submenu">
+                    <li><a href="#" class="link">공지사항</a></li>
+                    <li><a href="#" class="link">사업공고</a></li>
+                    <li><a href="#" class="link">입찰공고</a></li>
+                    <li><a href="#" class="link">결과발표</a></li>
+                    <li><a href="#" class="link">월별 행사 캘린더</a></li>
+                    <li><a href="#" class="link">교육 및 행사</a></li>
+                    <li><a href="#" class="link">타기관 공고</a></li>
+                    <li><a href="#" class="link">정책리포트</a></li>
+                    <li><a href="#" class="link">정책게시판</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="#">GCA소개</a>
+                  <ul class="submenu">
+                    <li>
+                      <a href="#">인사말<i class="xi-caret-down-min"></i></a>
+                      <ul class="submenu-3rd">
+                        <li><a href="#">이사장인사말</a></li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a href="#">일반현황<i class="xi-caret-down-min"></i></a>
+                      <ul class="submenu-3rd">
+                        <li><a href="#">미션/비전/전략</a></li>
+                        <li><a href="#">연혁</a></li>
+                        <li><a href="#">조직도 및 연락처</a></li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a href="#">채용정보<i class="xi-caret-down-min"></i></a>
+                      <ul class="submenu-3rd">
+                        <li><a href="#">채용정보</a></li>
+                        <li><a href="#">채용공고</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">지원서 작성 및 수정</a></li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a href="#">경영공시<i class="xi-caret-down-min"></i></a>
+                      <ul class="submenu-3rd">
+                        <li><a href="#">경영공시 개요</a></li>
+                        <li><a href="#">경영목표 및 예산사업계획</a></li>
+                        <li><a href="#">임원 및 운영인력 현황</a></li>
+                        <li><a href="#">예산</a></li>
+                        <li><a href="#">결산</a></li>
+                        <li><a href="#">인건비 예산 밎 집행현황</a></li>
+                        <li><a href="#">시책추진 업무 추진비</a></li>
+                        <li><a href="#">기관운영 업무 추진비</a></li>
+                        <li><a href="#">경영실적평가 결과</a></li>
+                        <li><a href="#">감사 결과 및 이행결과</a></li>
+                        <li><a href="#">성과계약 달성정도</a></li>
+                        <li><a href="#">계약정보</a></li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a href="#">윤리경영<i class="xi-caret-down-min"></i></a>
+                      <ul class="submenu-3rd">
+                        <li><a href="#">윤리경영소개</a></li>
+                        <li><a href="#">클린신고 센터</a></li>
+                        <li><a href="#">반부패 청렴자료</a></li>
+                        <li><a href="#">비위면직자 취업제한 제도</a></li>
+                        <li><a href="#">인권경영헌장</a></li>
+                        <li><a href="#">도정이행 게시판</a></li>
+                        <li><a href="#">사이버 성희롱 신고센터</a></li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a href="#">고객만족경영<i class="xi-caret-down-min"></i></a>
+                      <ul class="submenu-3rd">
+                        <li><a href="#">고객만족경영소개</a></li>
+                        <li><a href="#">고객의 소리</a></li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a href="#">행정정보공개<i class="xi-caret-down-min"></i></a>
+                      <ul class="submenu-3rd">
+                        <li><a href="#">정보공개청구</a></li>
+                        <li><a href="#">공공데이터 개방</a></li>
+                        <li><a href="#">법률고문 현황</a></li>
+                        <li><a href="#">사전정보 공표</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="#" class="link">기부금</a></li>
+                    <li><a href="#" class="link">CI/BI</a></li>
+                    <li><a href="#" class="link">오시는길</a></li>
+                  </ul>
+                </li>
+              </ul>
+              <!-- more-menu -->
+              <ul class="more-menu">
+                <li>
+                  <a href="#" class="hm">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="search-bt">
+                    <i class="xi-search"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </header>
+      <!-- 서브메뉴에 호버했을때 바탕화면 -->
+      <div class="header-dim"></div>
+
+      <!-- 컨텐츠 영역 -->
+      <div class="content" id="content">
+        <div class="pagew">
+          <!-- 컨텐츠상단 -->
+          <div class="content-top">
+            <div class="swiper-container sw-content">
+              <div class="swiper-wrapper">
+                <!-- 1번째 슬라이드 (공고알림) -->
+                <div class="swiper-slide">
+                  <div class="content-notice clearfix">
+                    <!-- 1번째 스와퍼의 좌 -->
+                    <div class="content-box notice-bg">
+                      <div class="swiper-container sw-notice">
+                        <div class="swiper-wrapper">
+                          <div class="swiper-slide">
+                            <a href="#"><img src="images/notice_1.png" alt="" /></a>
+                          </div>
+                          <div class="swiper-slide">
+                            <a href="#"><img src="images/notice_2.png" alt="" /></a>
+                          </div>
+                          <div class="swiper-slide">
+                            <a href="#"><img src="images/notice_3.jpg" alt="" /></a>
+                          </div>
+                          <div class="swiper-slide">
+                            <a href="#"><img src="images/notice_4.jpg" alt="" /></a>
+                          </div>
+                          <div class="swiper-slide">
+                            <a href="#"><img src="images/notice_5.jpg" alt="" /></a>
+                          </div>
+                        </div>
+                        <div class="sw-notice-player">
+                          <button class="sw-notice-pause circle"></button>
+                          <button class="sw-notice-play circle"></button>
+                        </div>
+                        <div class="sw-notice-page">
+                          <button class="sw-notice-prev circle"></button>
+                          <div class="sw-notice-pg"></div>
+                          <button class="sw-notice-next circle"></button>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- 1번째 스와퍼의 우 -->
+                    <div class="content-box">
+                      <a href="#" class="content-more">더보기</a>
+                      <!-- 메뉴 -->
+                      <ul class="notice-menu clearfix">
+                        <li class="notice-menu-focus"><a href="#">사업공고</a></li>
+                        <li><a href="#">입찰공고</a></li>
+                        <li><a href="#">결과발표</a></li>
+                      </ul>
+                      <!-- 컨텐트 내용 -->
+                      <ul class="notice-cont">
+                        <li>
+                          <div class="notice-box">
+                            <!-- 날짜 -->
+                            <div class="notice-box-date">
+                              <span class="notice-box-yymm">2023.06</span>
+                              <span class="notice-box-dd">02</span>
+                            </div>
+                            <!-- 내용 -->
+                            <div class="notice-box-txt">
+                              <a href="#">
+                                <span class="notice-box-tit"> [재공고]지역상권 연계 퓨처쇼 2021 참여기업 모집 </span>
+                                <span class="notice-box-more"> 자세히 보기<i class="xi-angle-right-thin"></i> </span>
+                              </a>
+                            </div>
+                          </div>
+                          <div class="notice-box">
+                            <div class="notice-box-date">
+                              <span class="notice-box-yymm">2021.05</span>
+                              <span class="notice-box-dd">28</span>
+                            </div>
+                            <div class="notice-box-txt">
+                              <a href="#">
+                                <span class="notice-box-tit"> (모집기간연장) 2021 환경 콘텐츠 비즈니스 시장성강화 지원사업 지원자 공개모집 </span>
+                                <span class="notice-box-more"> 자세히 보기 <i class="xi-angle-right-thin"></i> </span>
+                              </a>
+                            </div>
+                          </div>
+                          <div class="notice-box">
+                            <div class="notice-box-date">
+                              <span class="notice-box-yymm">2021.06</span>
+                              <span class="notice-box-dd">14</span>
+                            </div>
+                            <div class="notice-box-txt">
+                              <a href="#">
+                                <span class="notice-box-tit"> 「2021년 디자인 솔루션 랩」 참가기업 모집 공고 </span>
+                                <span class="notice-box-more"> 자세히 보기 <i class="xi-angle-right-thin"></i> </span>
+                              </a>
+                            </div>
+                          </div>
+                        </li>
+                        <li>내용없음</li>
+                        <li>
+                          <div class="notice-box">
+                            <div class="notice-box-date">
+                              <span class="notice-box-yymm">2021.06</span>
+                              <span class="notice-box-dd">14</span>
+                            </div>
+                            <div class="notice-box-txt">
+                              <a href="#">
+                                <span class="notice-box-tit"> 2021년 경기 시나리오 기획개발지원 심사 결과 발표 </span>
+                                <span class="notice-box-more"> 자세히 보기 <i class="xi-angle-right-thin"></i> </span>
+                              </a>
+                            </div>
+                          </div>
+                          <div class="notice-box">
+                            <div class="notice-box-date">
+                              <span class="notice-box-yymm">2021.05</span>
+                              <span class="notice-box-dd">08</span>
+                            </div>
+                            <div class="notice-box-txt">
+                              <a href="#">
+                                <span class="notice-box-tit"> 2021 경기인디시네마 지원작(상영지원/배급지원 통합공모) 선정결과 </span>
+                                <span class="notice-box-more"> 자세히 보기 <i class="xi-angle-right-thin"></i> </span>
+                              </a>
+                            </div>
+                          </div>
+                          <div class="notice-box">
+                            <div class="notice-box-date">
+                              <span class="notice-box-yymm">2021.04</span>
+                              <span class="notice-box-dd">29</span>
+                            </div>
+                            <div class="notice-box-txt">
+                              <a href="#">
+                                <span class="notice-box-tit"> 2021년 융합콘텐츠 창업지원 경쟁부문 예비창업자 선발 최종선정결과 발표 </span>
+                                <span class="notice-box-more"> 자세히 보기 <i class="xi-angle-right-thin"></i> </span>
+                              </a>
+                            </div>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <!-- 2번째 슬라이드 (교육 및 기타 알림)-->
+                <div class="swiper-slide">
+                  <div class="content-alram clearfix">
+                    <!-- 2번째 슬라이드의 좌 -->
+                    <div class="content-box alram-bg">
+                      <!-- 좌 -->
+                      <div class="content-alram-left">
+                        <!-- 상단 -->
+                        <div class="alram-top">
+                          <a href="#" class="alram-tit">교육 및 행사</a>
+                          <a href="#" class="alram-more">더보기</a>
+                        </div>
+                        <!-- 하단 -->
+                        <div class="alram-cont">
+                          <a href="#" class="alram-edu-link">
+                            <span class="alram-edu"></span>
+                            <span class="alram-edu-tit"> [경기도1인크리에이터] </span>
+                            <span class="alram-edu-desc"> ‘살롱 드 크리에이터’ 1회차 참여 크리에이터 모집 공고 </span>
+                          </a>
+                        </div>
+                      </div>
+                      <!-- 우 -->
+                      <div class="content-alram-right">
+                        <!-- 상단 -->
+                        <div class="alram-top">
+                          <a href="#" class="alram-tit">정책게시판</a>
+                          <a href="#" class="alram-more">더보기</a>
+                        </div>
+                        <!-- 하단 -->
+                        <div class="alram-cont">
+                          <div class="swiper-container sw-edu">
+                            <div class="swiper-wrapper">
+                              <div class="swiper-slide">
+                                <a href="#" class="alram-edu-link">
+                                  <span class="alram-edu edu-bg1"></span>
+                                  <span class="alram-edu-tit"> 경기도 옴부즈만 </span>
+                                  <span class="alram-edu-desc"> 도민의 공충을 해결하는 도민의 진정한 대리인! </span>
+                                </a>
+                              </div>
+                              <div class="swiper-slide">
+                                <a href="#" class="alram-edu-link">
+                                  <span class="alram-edu edu-bg2"></span>
+                                  <span class="alram-edu-tit"> 청렴포털 </span>
+                                  <span class="alram-edu-desc"> 세상을 바꾸는 행동하는 양심 공익신고 </span>
+                                </a>
+                              </div>
+                            </div>
+                            <div class="sw-edu-control">
+                              <button class="sw-edu-prev">←</button>
+                              <button class="sw-edu-next">→</button>
+                              <div class="sw-edu-pg"></div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- 2번째 슬라이드의 우 -->
+                    <div class="content-box alram-list-bg">
+                      <div class="alram-tab-menu">
+                        <a href="#" class="alram-tab-menu-focus">공지사항</a>
+                        <a href="#">타기관 공고</a>
+                      </div>
+                      <div class="alram-tab-cont alram-tab-cont-focus">
+                        <div class="alram-cont-box">
+                          <span class="alram-day">
+                            2021.06
+                            <em>09</em>
+                          </span>
+                          <a href="#">
+                            <span class="alram-box-tit"> 공시송달공고문[부정당업자입찰참가자격제한청문시행사전통지] </span>
+                            <span class="alram-box-more">
+                              자세히 보기
+                              <i class="xi-angle-right-thin"></i>
+                            </span>
+                          </a>
+                        </div>
+                        <div class="alram-cont-box">
+                          <span class="alram-day">
+                            2021.05
+                            <em>03</em>
+                          </span>
+                          <a href="#">
+                            <span class="alram-box-tit"> [운영 재개] 경기XR센터 스타트업라운지 및 VR/AR체험공간 이용 안내 </span>
+                            <span class="alram-box-more">
+                              자세히 보기
+                              <i class="xi-angle-right-thin"></i>
+                            </span>
+                          </a>
+                        </div>
+                        <div class="alram-cont-box">
+                          <span class="alram-day">
+                            2021.04
+                            <em>27</em>
+                          </span>
+                          <a href="#">
+                            <span class="alram-box-tit"> 경기VR/AR제작거점센터 (경기XR센터) 시설/장비 이용 안내 </span>
+                            <span class="alram-box-more">
+                              자세히 보기
+                              <i class="xi-angle-right-thin"></i>
+                            </span>
+                          </a>
+                        </div>
+                      </div>
+                      <div class="alram-tab-cont">
+                        <div class="alram-cont-box">
+                          <span class="alram-day">
+                            2021.06
+                            <em>09</em>
+                          </span>
+                          <a href="#">
+                            <span class="alram-box-tit"> [경기도] ‘K-Beauty Expo 2021’ 안내 </span>
+                            <span class="alram-box-more">
+                              자세히 보기
+                              <i class="xi-angle-right-thin"></i>
+                            </span>
+                          </a>
+                        </div>
+                        <div class="alram-cont-box">
+                          <span class="alram-day">
+                            2021.05
+                            <em>03</em>
+                          </span>
+                          <a href="#">
+                            <span class="alram-box-tit"> [성북문화재단] 제1회 성북청춘불패영화제 안내 </span>
+                            <span class="alram-box-more">
+                              자세히 보기
+                              <i class="xi-angle-right-thin"></i>
+                            </span>
+                          </a>
+                        </div>
+                        <div class="alram-cont-box">
+                          <span class="alram-day">
+                            2021.04
+                            <em>27</em>
+                          </span>
+                          <a href="#">
+                            <span class="alram-box-tit"> [경기수원월드컵재단] 2021 온라인 서포터즈 모집 </span>
+                            <span class="alram-box-more">
+                              자세히 보기
+                              <i class="xi-angle-right-thin"></i>
+                            </span>
+                          </a>
+                        </div>
+                      </div>
+                      <a href="#" class="alram-link">더보기</a>
+                    </div>
+                  </div>
+                </div>
+                <!-- 3번째 슬라이드 (월별 행사 알림)-->
+                <div class="swiper-slide">
+                  <div class="calendar-wrap clearfix">
+                    <!-- 좌 -->
+                    <div class="content-box cal-bg">
+                      <!-- 여기는 달력 코딩자리 -->
+                    </div>
+                    <!-- 우 -->
+                    <div class="content-box cal-bg-list">
+                      <ul class="cal-list">
+                        <li>
+                          <span class="cal-area">북부</span>
+                          <a href="#" class="cal-link">
+                            <span class="cal-tit"> 2021년 융합콘텐츠 제작지원 참가기업 모집 </span>
+                            <span class="cal-more">
+                              자세히 보기
+                              <i class="xi-angle-right-thin"></i>
+                            </span>
+                          </a>
+                        </li>
+                        <li>
+                          <span class="cal-area">북부</span>
+                          <a href="#" class="cal-link">
+                            <span class="cal-tit"> 2021 경기 제작(메이커) 프로젝트 지원 모집공고 </span>
+                            <span class="cal-more">
+                              자세히 보기
+                              <i class="xi-angle-right-thin"></i>
+                            </span>
+                          </a>
+                        </li>
+                        <li>
+                          <span class="cal-area">광명</span>
+                          <a href="#" class="cal-link">
+                            <span class="cal-tit"> 광명 경기문화창조허브 <지구 지킴이 체험단> 모집 </span>
+                            <span class="cal-more">
+                              자세히 보기
+                              <i class="xi-angle-right-thin"></i>
+                            </span>
+                          </a>
+                        </li>
+                        <li>
+                          <span class="cal-area">판교</span>
+                          <a href="#" class="cal-link">
+                            <span class="cal-tit"> <2021 청년창업 SMART2030> 예비 창업자 모집 </span>
+                            <span class="cal-more">
+                              자세히 보기
+                              <i class="xi-angle-right-thin"></i>
+                            </span>
+                          </a>
+                        </li>
+                      </ul>
+                      <a href="#" class="cal-detail">더보기</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- 컨텐츠히단 (navi) -->
+          <div class="content-navi">
+            <div class="swiper-container sw-navi">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="content-tab">
+                    <img src="images/logo_sm01_oct.jpg" alt="달력배경" class="content-tab-img" />
+                    <span class="content-tab-icon">
+                      <i class="xi-message-o"></i>
+                    </span>
+                    <span class="content-tab-tit">공고 알림</span>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="content-tab">
+                    <img src="images/logo_sm01_oct.jpg" alt="" class="content-tab-img" />
+                    <span class="content-tab-icon">
+                      <i class="xi-alarm-o"></i>
+                    </span>
+                    <span class="content-tab-tit">교육 및 기타 알림</span>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="content-tab">
+                    <img src="images/logo_sm01_oct.jpg" alt="" class="content-tab-img" />
+                    <span class="content-tab-icon">
+                      <i class="xi-calendar-check"></i>
+                    </span>
+                    <span class="content-tab-tit">월별 행사 캘린더</span>
+                  </div>
+                </div>
+              </div>
+              <div class="sw-navi-prev">
+                <i class="xi-long-arrow-left"></i>
+              </div>
+              <div class="sw-navi-next">
+                <i class="xi-long-arrow-right"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 허브 영역 -->
+      <div class="hub" id="hub">
+        <div class="pagew">
+          <!-- 허브 상단 -->
+          <div class="hub-top">
+            <ul class="hub-info">
+              <li class="hub-info-focus">
+                <span class="hub-info-bar"></span>
+                <span class="hub-info-cate">G-HUB</span>
+                <p class="hub-info-tit">
+                  경기도 콘텐츠<br />
+                  <b>창업·스타트업</b> 지원센터
+                </p>
+                <p class="hub-info-desc">
+                  경기문화창조허브는 융·복합 콘텐츠 분야의<br />
+                  창업과 스타트업의 성장을 위한 인프라와 프로그램을 지원합니다.
+                </p>
+              </li>
+              <li>
+                <span class="hub-info-bar"></span>
+                <span class="hub-info-cate">GAME</span>
+                <p class="hub-info-tit">
+                  경기도 게임산업의 내일,<br />
+                  <b>게임</b>은 경기도!
+                </p>
+                <p class="hub-info-desc">
+                  경기도 게임산업의 내일,<br />
+                  경기글로벌게임센터가 열어갑니다.
+                </p>
+              </li>
+              <li>
+                <span class="hub-info-bar"></span>
+                <span class="hub-info-cate">MUSIC</span>
+                <p class="hub-info-tit">
+                  대한민국 <b>음악산업</b>의 중심<br />
+                  경기도
+                </p>
+                <p class="hub-info-desc">
+                  경기도 음악산업 육성사업을 통해 우수 뮤지션들의<br />
+                  도내 활동 입지 강화 및 음악 콘텐츠를 통한 지역 상권 활성화를 도모하고 있습니다.
+                </p>
+              </li>
+              <li>
+                <span class="hub-info-bar"></span>
+                <span class="hub-info-cate">VIDEO</span>
+                <p class="hub-info-tit">
+                  차세대 영상산업의<br />
+                  중심
+                </p>
+                <p class="hub-info-desc">
+                  영상물 촬영 및 제작지원부터 MCN분야 1인 크리에이터 육성까지<br />
+                  경기영상위원회, 경기도 1인 크리에이터 사업이 함께합니다.
+                </p>
+              </li>
+              <li>
+                <span class="hub-info-bar"></span>
+                <span class="hub-info-cate">BOOK</span>
+                <p class="hub-info-tit">
+                  책을 만나는 접점 확대를 통해<br />
+                  책 생태계 활성화
+                </p>
+                <p class="hub-info-desc">
+                  경기도 책 생태계 활성화 사업을 통해 지역출판과 동네서점 활성화를 위한<br />
+                  다양한 프로젝트를 추진하고 있습니다.
+                </p>
+              </li>
+              <li>
+                <span class="hub-info-bar"></span>
+                <span class="hub-info-cate">VR·AR</span>
+                <p class="hub-info-tit">
+                  미래로 향하는 <b>GCA</b>,<br />
+                  <b>VR/AR</b>은 경기도!
+                </p>
+                <p class="hub-info-desc">
+                  경기도의 VR/AR 산업 생태계 조성을 위한 '경기XR센터'와<br />
+                  '경기VR·AR제작거점센터'를 운영하고 있습니다.
+                </p>
+              </li>
+              <li>
+                <span class="hub-info-bar"></span>
+                <span class="hub-info-cate">EXPERT</span>
+                <p class="hub-info-tit">경기도 콘텐츠, 빅데이터 전문가 육성의 산실</p>
+                <p class="hub-info-desc">
+                  창의적 인재의 콘텐츠산업 유입기반 및 저변확대를 위해 관내 특성화고 대상으로<br />
+                  콘텐츠산업 현장 중심의 맞춤형 교육 지원 사업
+                </p>
+              </li>
+              <li>
+                <span class="hub-info-bar"></span>
+                <span class="hub-info-cate">FUNDING</span>
+                <p class="hub-info-tit">
+                  스타트업과 투자자의<br />
+                  <b>Node Point!</b>
+                </p>
+                <p class="hub-info-desc">
+                  넥시드 투자지원센터에서 스타트업 지원코자 출자펀드를 통한<br />
+                  간접투자와 투자유치 프로그램을 운영하고 있습니다.
+                </p>
+              </li>
+              <li>
+                <span class="hub-info-bar"></span>
+                <span class="hub-info-cate">EXPORT</span>
+                <p class="hub-info-tit">경기도 중소 콘텐츠 기업의 해외시장 진출지원</p>
+                <p class="hub-info-desc">
+                  국내외 캐릭터 마켓 참가, 수출상담회 개최, 해외진출 역량/기반 강화사업으로<br />
+                  경기도 콘텐츠기업의 해외시장 진출을 지원합니다.
+                </p>
+              </li>
+              <li>
+                <span class="hub-info-bar"></span>
+                <span class="hub-info-cate">G-Fair</span>
+                <p class="hub-info-tit">경기도 콘텐츠 공정거래상담센터</p>
+                <p class="hub-info-desc">
+                  경기도는 콘텐츠산업 불공정한 거래 관행 개선 및 피해구제 지원을 통해<br />
+                  공정·상생하는 콘텐츠 산업 환경 조성을 위한 상담센터를 운영중에 있습니다.
+                </p>
+              </li>
+            </ul>
+          </div>
+
+          <!-- 허브 하단 -->
+          <div class="hub-bottom">
+            <ul class="hub-menu clearfix">
+              <li>
+                <a href="#">
+                  <span class="h-icon"></span>
+                  <span class="h-txt">경기문화<br />창조허브</span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <span class="h-icon"></span>
+                  <span class="h-txt">게임산업</span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <span class="h-icon"></span>
+                  <span class="h-txt">음악산업</span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <span class="h-icon"></span>
+                  <span class="h-txt">영상산업</span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <span class="h-icon"></span>
+                  <span class="h-txt">출판산업</span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <span class="h-icon"></span>
+                  <span class="h-txt">VR · AR산업</span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <span class="h-icon"></span>
+                  <span class="h-txt">전문인력<br />양성</span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <span class="h-icon"></span>
+                  <span class="h-txt">자금지원</span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <span class="h-icon"></span>
+                  <span class="h-txt">수출지원</span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <span class="h-icon"></span>
+                  <span class="h-txt h-sm">경기도 콘텐츠<br />공정거래상담센터</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
