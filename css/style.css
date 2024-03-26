@@ -102,18 +102,18 @@ body {
   top: -141px;
   width: 100%;
 }
-.h-fix-mt {
+.h-fix-mt{
   margin-top: 207px;
 }
-.h-show {
+.h-show{
   display: block !important;
   width: 20%;
   text-align: center;
 }
-.h-show img {
+.h-show img{
   width: 70%;
 }
-.h-fix-gnb {
+.h-fix-gnb{
   width: 80% !important;
 }
 /* 스크롤 됐을때 끝 */
@@ -479,44 +479,3 @@ body {
   background-color: rgba(0, 0, 0, 0.6);
   z-index: 99999;
 }
-
-.alram-tab-menu a {
-  position: relative;
-  display: inline-block;
-  font-size: 2.4rem;
-  font-family: "NanumSquare";
-  color: rgba(85, 85, 85, 0.5);
-  color: rgba(85, 85, 85, 0.5);
-
-  font-weight: 500;
-  letter-spacing: -0.5px;
-  margin-right: 20px;
-  transition: color 0.3s;
-}
-
-.alram-tab-menu a:before {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: -11px;
-  width: 6px;
-  height: 6px;
-  background: #555;
-  border-radius: 100%;
-  opacity: 0;
-  transition: opacity 0.3s;
-}
-
-.alram-tab-menu a:hover {
-  /* important: 콘솔에 줄 그어져있는거(적용 안 된 것) 적용 */
-  color: rgba(85, 85, 85, 1) !important;
-}
-
-.alram-tab-menu a:hover:before {
-  opacity: 1;
-}
-
-.alram-tab-menu a:hover:before {
-  opacity: 1 !important;
-}
-

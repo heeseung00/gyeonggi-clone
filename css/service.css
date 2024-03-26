@@ -1,0 +1,154 @@
+@charset "utf-8";
+/* 뉴스베너 */
+.news-banner {
+  position: relative;
+  display: block;
+  margin-top: 65px;
+}
+.news-banner .pagew {
+  width: 1360px;
+  height: 150px;
+  background: url("../images/bg_news.jpg") no-repeat center;
+  background-size: cover;
+
+  border: 1px solid #eaeff3;
+  margin-bottom: 65px;
+}
+.banner-img {
+  position: absolute;
+  left: 56px;
+  top: 0;
+}
+.banner-txt {
+  position: absolute;
+  left: 482px;
+  top: 45px;
+}
+.banner-tit {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: block;
+
+  white-space: nowrap;
+  font-size: 2.4rem;
+  font-weight: 500;
+  font-family: "NanumSquare";
+  color: #333;
+  letter-spacing: -1px;
+}
+
+.banner-desc {
+  position: absolute;
+  left: 0;
+  top: 38px;
+  display: block;
+
+  white-space: nowrap;
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: #333;
+  font-family: "NanumSquare";
+}
+.newsletter {
+  position: absolute;
+  right: 51px;
+  top: 43px;
+  display: block;
+  background: #ec008c;
+  color: #fff;
+  font-size: 1.8rem;
+  font-weight: 400;
+  font-family: "NanumSquare";
+
+  padding: 14px 30px;
+}
+
+.banner-more {
+  position: absolute;
+  right: 51px;
+  bottom: 25px;
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: #333;
+  font-family: "NanumSquare";
+  text-decoration: underline;
+}
+/* 서비스 */
+.service {
+  position: relative;
+  display: block;
+}
+.service .pagew {
+  width: 1360px;
+  overflow: hidden;
+}
+.service-list {
+  position: relative;
+  display: block;
+  width: 1380px;
+  margin-left: -10px;
+}
+.service-list > li {
+  position: relative;
+  display: block;
+  float: left;
+  width: 25%;
+}
+.service-list > li > a {
+  position: relative;
+  display: block;
+  width: 325px;
+  height: 200px;
+  margin: 0 auto;
+  overflow: hidden;
+
+  background: #000;
+}
+.service-list > li > a > img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+
+  display: block;
+  transition: opacity 0.6s;
+}
+.service-list > li:last-child > a > img {
+  width: 101%;
+}
+.service-list > li > a:hover > img {
+  opacity: 0.6;
+}
+.service-txt {
+  position: relative;
+  display: block;
+  color: #fff;
+  font-family: "NanumSquare";
+  padding: 30px;
+  z-index: 99;
+}
+.service-tit {
+  position: relative;
+  display: block;
+  font-size: 2.4rem;
+  font-weight: 500;
+  line-height: 3rem;
+}
+
+.service-desc {
+  position: relative;
+  display: inline-block;
+  font-size: 1.8rem;
+  font-weight: 400;
+  margin-top: 10px;
+}
+.service-desc::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 1px;
+  background: #fff;
+}

@@ -219,18 +219,19 @@ $(document).ready(function () {
   sw_navi.controller.control = sw_content;
 
   // hub 영역
+  // 허브 메뉴 저장
   var hubMenu = $(".hub-menu a");
   // 허브 내용들을 저장
-  var hubinfos = $(".hub-info > li");
-  // 모두 기능이 똑같다.
-  $each(hubMenu, function (index, item) {
-    // 마우스 오버를 처리
-    $(this).mouseenter(function () {
-      hubInfos.removeClass("hub-info-focus");
-      hubInfos.eq(index).addClass("hub-info-focus");
-    });
-  });
+  var hubInfos = $(".hub-info > li");
+// 모두 기능이 똑 같다
+$.each(hubMenu ,function(index,item){
+// 마우스 오버를 처리
+$(this).mouseenter(function(){
+  hubInfos.removeClass("hub-info-focus")
+  hubInfos.eq(index).addClass("hub-info-focus")
 
+})
+})
   // ======================
 });
 
